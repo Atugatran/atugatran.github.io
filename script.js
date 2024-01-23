@@ -1,6 +1,6 @@
 let Mini_Project = null;
 
-fetch("https://atugatranproject.github.io/_Apis/Atul22g/Apps.json")
+fetch("https://atul22g-api.netlify.app/atul22g/Apps.json")
     .then((res) => res.json())
     .then((result) => {
         apps = result;
