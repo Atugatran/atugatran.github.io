@@ -111,7 +111,8 @@ input {
 
 #links-container>a {
   color: rgb(255 255 255 / 80%);
-  font-size: 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -945,4 +946,19 @@ h3.txt-ne {
   background-color: #f2f2f2;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+/* Media Quries */
+
+.customPadding {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 1%;
+}
+
+@media screen and (max-width: 1245px) {
+  .customPadding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
