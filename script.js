@@ -1,6 +1,6 @@
 let Mini_Project = null;
 
-fetch("https://atugatranapi.pages.dev/Atul22g/index.json")
+fetch("https://atualapis.pages.dev/ProjectsApis/atual-dev.json")
     .then((res) => res.json())
     .then((result) => {
         apps = result;
